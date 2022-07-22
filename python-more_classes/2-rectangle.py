@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 """
-This one is for creating classes
+
+This module is composed by a class that defines a Rectangle
+
+
 """
 
 
