@@ -96,7 +96,6 @@ class Rectangle:
 
         return self.width * self.height
 
-
     def perimeter(self):
         """ Method that calculates the Rectangle perimeter
 
