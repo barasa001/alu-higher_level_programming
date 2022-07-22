@@ -16,15 +16,18 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
+
     def area(self):
         """ Method that returns the square are of the object
         """
         return (self.__size ** 2)
+
     @property
     def size(self):
         """ Method to returns the size value
         """
         return self.__size
+
     @size.setter
     def size(self, value):
         """ Method to set the size value of the square object
