@@ -3,6 +3,7 @@
 Writing class square to define size.
 """
 
+
 class Square:
     """Class Square that defines a square object
     """
