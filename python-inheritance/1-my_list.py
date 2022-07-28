@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This is the module for attributes and classes"""
+"""The module for class attributes"""
+
 
 class MyList(list):
     """ Class that inherits the attributes references of class list
