@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 """Script that takes in a url, sends a request to the url and displays body of response"""
-- The body of the response if there are no errors
-- The error code when there is an HTTP error.
-"""
 import requests
 import sys
 
