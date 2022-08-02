@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Script that takes in a url, sends a request to the url and displays body of respons
-e
+Script taht takes in url and sends request and displays body of the response
 """
 import requests
 import sys
