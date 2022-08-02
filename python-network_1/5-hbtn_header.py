@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Script that takes url, sends a request and displays variable value"""import requests
+"""Script that takes url, sends a request and displays variable value"""
+import requests
 import sys
 
 
