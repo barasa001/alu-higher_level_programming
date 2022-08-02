@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Python script which takes in a url and an email and sends a post request to the passed url 
+Python script which takes in a url and an email and sends a post request
 """
 from urllib import request, parse
 import sys
