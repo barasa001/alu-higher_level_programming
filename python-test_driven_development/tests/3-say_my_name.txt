@@ -6,10 +6,6 @@
 import module:
        >>> say_my_name = __import__("3-say_my_name").say_my_name
 
-Only one argument:
-       >>> say_my_name("Bond")
-       My name is Bond
-
 Random name:
        >>> say_my_name("James", "Bond")
        My name is James Bond
