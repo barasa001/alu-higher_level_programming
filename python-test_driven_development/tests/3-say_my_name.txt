@@ -11,8 +11,8 @@ Only one argument:
        My name is Bond
 
 Random name:
-       >>> say_my_name("John", "Smith")
-       My name is John Smith
+       >>> say_my_name("James", "Bond")
+       My name is James Bond
 
 No arguments:
        >>> say_my_name()
