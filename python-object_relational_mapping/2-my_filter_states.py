@@ -6,3 +6,5 @@ of hbtn_0e_0_usa where name matches the argument
 
 
 if __name__ == "__main__":
+    from sys import argv
+    import MySQLdb
