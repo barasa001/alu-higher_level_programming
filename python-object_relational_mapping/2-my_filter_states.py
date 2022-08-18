@@ -15,3 +15,8 @@ if __name__ == "__main__":
     cr.execute("SELECT * from states\
                 WHERE name LIKE '{}' COLLATE latin1_general_cs\
                 ORDER BY states.id".format(argv[4]))
+    states = cr.fetchall()
+    for state in states:
+        print(state)
+    cr.close()
+    db.close()
