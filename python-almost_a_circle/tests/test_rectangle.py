@@ -372,3 +372,9 @@ class TestRectangleMethods(unittest.TestCase):
         Rectangle.save_to_file(l)
         with open("Rectangle.json", "r") as f:
             self.assertEqual("[]", f.read())
+
+    def test_stf_None(self):
+        """test save_to_file with None"""
+        Rectangle.save_to_file(None)
+        with open("Rectangle.json", "r") as f:
+            self.assertEqual("[]", f.read())
