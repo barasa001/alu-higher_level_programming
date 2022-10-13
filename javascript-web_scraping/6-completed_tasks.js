@@ -9,8 +9,8 @@ request(process.argv[2], function (err, response, body) {
       if (json[i].completed === true) {
         if (resp[json[i].userId] === undefined) {
           resp[json[i].userId] = 0;
-	}
-	resp[json[i].userId]++;
+        }
+        resp[json[i].userId]++;
       }
     }
     console.log(resp);
